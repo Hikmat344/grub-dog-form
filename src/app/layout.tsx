@@ -1,6 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Image from 'next/image'
+import bg from "../../public/Images/bg.png"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +18,19 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} `} >
+        <div style={{zIndex:-1 , position:'fixed' , width: "100vw" , height: "100vh"}} className='shrink-0'>
+          <Image
+            src={bg}
+            alt='background image'
+            layout='fit'
+            objectFit='cover'
+            
+            priority
+            
+            />
+        </div>
+        {children}</body>
     </html>
   )
 }

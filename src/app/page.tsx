@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import Form from './components/Form'
-import Slider from './components/Slides'
-import { Navbar } from './components/Navbar'
+import Form from '../app/components/PageOne/Form'
+import Slider from '../app/components/PageOne/Slides'
+import { Navbar } from '../app/components/PageOne/Navbar'
 
 export default function Home() {
   return (

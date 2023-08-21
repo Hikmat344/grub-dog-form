@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, useEffect } from 'react';
-import dog1 from "../../../public/Images/desdog.png"
-import dog2 from "../../../public/Images/desdog2.png"
+import dog1 from "../../../../public/Images/desdog1.png"
+import dog2 from "../../../../public/Images/desdog2.png"
 import bg1 from "../../../public/Images/bg1.svg"
 // import bg2 from "../../../public/Images/"
 import Image from 'next/image';

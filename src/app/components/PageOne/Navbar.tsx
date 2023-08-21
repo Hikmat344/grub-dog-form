@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import logo from "../../../public/Images/logo.png"
 import union from "../../../public/Images/Union.png"
-import MobileNav from "./MobileNav"
+import MobileNav from "../PageOne/MobileNav"
 import dog from "../../../public/Images/dog.png"
 import foot from "../../../public/Images/foot.svg"
 import bon from "../../../public/Images/bon.svg"
